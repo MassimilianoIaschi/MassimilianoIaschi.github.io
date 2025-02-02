@@ -13,51 +13,32 @@ Most robotics efforts nowadays go towards the development of extremely complex a
 By definition, centipede robots are long and narrow. The first feature, combined with their spatial redundancy (multiple legs) allows for great stability on every terrain. The second feature allows them to reach environments that most other legged robot cannot. The addition of bio-inspired compliance, bio-inspired tactile sensing, clever closed-loop/learning-based control systems then allows to optimize their performances.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/outdoor.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 d-flex align-items-stretch mt-3 mt-md-0">
+        <img src="{{ '/assets/img/riproviamo.jpg' | relative_url }}" alt="example image" class="img-fluid rounded w-100" style="object-fit: contain; height: 300px;">
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/natural.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 d-flex align-items-stretch mt-3 mt-md-0">
+        <img src="{{ '/assets/img/outdoor.png' | relative_url }}" alt="example image" class="img-fluid rounded w-100" style="object-fit: contain; height: 300px;">
     </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
+
+<div class="caption">
+    Left picture shows the robot locomoting through cluttered environments, both artificial and natural, displaying the system's climbing and unjamming capabilities. On the right a timelapse of the robot locomoting through a cluttered pipe, displaying the system's ability to locomote through narrow environments.
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <video width="100%" controls>
-            <source src="{{ '/assets/img/SI_High_Resulution_compressed.mp4' | relative_url }}" type="video/mp4">
+            <source src="https://www.dropbox.com/scl/fi/k1o1g3s37crsp3nkjpwoh/SI_High_Resulution-1.mp4?rlkey=852cuc7utveasx5ifp15ehuvp&st=upo1o4g6&dl=1" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
 </div>
 
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    The video above is the SI video of our latest RSS submission
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+The work presented above rapresents only the first step of a larger series. Future work will involve the design of improved tactile sensing mechanisms, the creation of a learning-based controller, and SLAM applications.
 
 {% endraw %}

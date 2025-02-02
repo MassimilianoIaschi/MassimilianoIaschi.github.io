@@ -31,5 +31,3 @@ I'm a senior undergraduate student at Georgia Institute of Technology in Mechani
 
 In summer 2023 I was a research intern at Roland Siegwart's Autonomous Systems Lab at ETH Zurich, working on the underwater robotics startup Tethys Robotics.
 In summer 2022 I was a research intern ad Domenico Prattichizzo's SIRSLab at Siena University, working on robotic haptic applications.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
